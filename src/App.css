@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+}
+.card{
+    border: 5px solid #31B2A3;
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    background: url(./Components/image/퀴즈배경.png);
+    background-position: center;
+}
+
+.question{
+    border: 1px solid black;
+    height: 200px;
+    font-size: 50px;
+    padding-top: 55px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.answer{
+    font-size: 37px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    caret-color: gray;
+}
+
+.answer:hover {
+    background-color: gray;
+}
